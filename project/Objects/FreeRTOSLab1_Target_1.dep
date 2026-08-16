@@ -1,0 +1,287 @@
+Dependencies for Project 'FreeRTOSLab1', Target 'Target_1': (DO NOT MODIFY !)
+CompilerVersion: 6220000::V6.22::ARMCLANG
+F (.\main.c)(0x6A7F6857)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/maraw/OneDrive/Desktop/project/FreeRTOS_Lab1-I./RTE/RTOS-I./RTE/_Target_1-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/portable/GCC/ARM_CM4F-ID:/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/main.o -MMD)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\FreeRTOS.h)(0x6A7754E2)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6A7F67A7)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\projdefs.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\portable.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\deprecated_definitions.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\mpu_wrappers.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\task.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\list.h)(0x6A7754E2)
+I (lighting_task.h)(0x6A7F44C2)
+I (oven_task.h)(0x6A7F4ED9)
+I (init.h)(0x6A7FABD5)
+I (inc\hw_memmap.h)(0x6A777D92)
+I (driverlib\adc.h)(0x6A7DE4E7)
+I (driverlib\gpio.h)(0x6A7DE4E7)
+I (driverlib\sysctl.h)(0x6A7DE4E8)
+I (uart_drain_task.h)(0x6A7F44C2)
+I (UART.h)(0x6A7F5D49)
+I (UART_task.h)(0x6A7F5EDE)
+I (shared_state.h)(0x6A7F44C2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\queue.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\semphr.h)(0x6A7754E2)
+F (.\tm4c123gh6pm_.h)(0x6A6DDF08)()
+F (.\UART.h)(0x6A7F5D49)()
+F (.\UART.c)(0x6A7F6529)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/maraw/OneDrive/Desktop/project/FreeRTOS_Lab1-I./RTE/RTOS-I./RTE/_Target_1-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/portable/GCC/ARM_CM4F-ID:/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/uart.o -MMD)
+I (UART.h)(0x6A7F5D49)
+I (tm4c123gh6pm_.h)(0x6A6DDF08)
+F (.\lighting_task.c)(0x6A7F61E5)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/maraw/OneDrive/Desktop/project/FreeRTOS_Lab1-I./RTE/RTOS-I./RTE/_Target_1-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/portable/GCC/ARM_CM4F-ID:/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/lighting_task.o -MMD)
+I (lighting_task.h)(0x6A7F44C2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\FreeRTOS.h)(0x6A7754E2)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6A7F67A7)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\projdefs.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\portable.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\deprecated_definitions.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\mpu_wrappers.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\task.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\list.h)(0x6A7754E2)
+I (lighting_hal.h)(0x6A7F44C2)
+I (init.h)(0x6A7FABD5)
+I (inc\hw_memmap.h)(0x6A777D92)
+I (driverlib\adc.h)(0x6A7DE4E7)
+I (driverlib\gpio.h)(0x6A7DE4E7)
+I (driverlib\sysctl.h)(0x6A7DE4E8)
+I (shared_state.h)(0x6A7F44C2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\queue.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\semphr.h)(0x6A7754E2)
+F (.\shared_state.h)(0x6A7F44C2)()
+F (.\init.c)(0x6A7F44C2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/maraw/OneDrive/Desktop/project/FreeRTOS_Lab1-I./RTE/RTOS-I./RTE/_Target_1-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/portable/GCC/ARM_CM4F-ID:/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/init.o -MMD)
+I (init.h)(0x6A7FABD5)
+I (inc\hw_memmap.h)(0x6A777D92)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\FreeRTOS.h)(0x6A7754E2)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6A7F67A7)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\projdefs.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\portable.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\deprecated_definitions.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\mpu_wrappers.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\task.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\list.h)(0x6A7754E2)
+I (driverlib\adc.h)(0x6A7DE4E7)
+I (driverlib\gpio.h)(0x6A7DE4E7)
+I (driverlib\sysctl.h)(0x6A7DE4E8)
+I (shared_state.h)(0x6A7F44C2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\queue.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\semphr.h)(0x6A7754E2)
+F (.\init.h)(0x6A7FABD5)()
+F (.\lighting_task.h)(0x6A7F44C2)()
+F (.\led_builtin.c)(0x6A7F5A38)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/maraw/OneDrive/Desktop/project/FreeRTOS_Lab1-I./RTE/RTOS-I./RTE/_Target_1-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/portable/GCC/ARM_CM4F-ID:/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/led_builtin.o -MMD)
+I (led_builtin.h)(0x6A7F44C2)
+I (inc\hw_memmap.h)(0x6A777D92)
+I (driverlib\gpio.h)(0x6A7DE4E7)
+I (driverlib\sysctl.h)(0x6A7DE4E8)
+F (.\led_builtin.h)(0x6A7F44C2)()
+F (.\lighting_hal.c)(0x6A7FAA66)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/maraw/OneDrive/Desktop/project/FreeRTOS_Lab1-I./RTE/RTOS-I./RTE/_Target_1-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/portable/GCC/ARM_CM4F-ID:/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/lighting_hal.o -MMD)
+I (lighting_hal.h)(0x6A7F44C2)
+I (init.h)(0x6A7FABD5)
+I (inc\hw_memmap.h)(0x6A777D92)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\FreeRTOS.h)(0x6A7754E2)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6A7F67A7)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\projdefs.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\portable.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\deprecated_definitions.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\mpu_wrappers.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\task.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\list.h)(0x6A7754E2)
+I (driverlib\adc.h)(0x6A7DE4E7)
+I (driverlib\gpio.h)(0x6A7DE4E7)
+I (driverlib\sysctl.h)(0x6A7DE4E8)
+I (led_builtin.h)(0x6A7F44C2)
+F (.\lighting_hal.h)(0x6A7F44C2)()
+F (.\shared_state.c)(0x6A7F44C2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/maraw/OneDrive/Desktop/project/FreeRTOS_Lab1-I./RTE/RTOS-I./RTE/_Target_1-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/portable/GCC/ARM_CM4F-ID:/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/shared_state.o -MMD)
+I (shared_state.h)(0x6A7F44C2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\FreeRTOS.h)(0x6A7754E2)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6A7F67A7)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\projdefs.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\portable.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\deprecated_definitions.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\mpu_wrappers.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\queue.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\task.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\list.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\semphr.h)(0x6A7754E2)
+F (.\uart_drain_task.c)(0x6A7F44C2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/maraw/OneDrive/Desktop/project/FreeRTOS_Lab1-I./RTE/RTOS-I./RTE/_Target_1-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/portable/GCC/ARM_CM4F-ID:/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/uart_drain_task.o -MMD)
+I (uart_drain_task.h)(0x6A7F44C2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\FreeRTOS.h)(0x6A7754E2)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6A7F67A7)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\projdefs.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\portable.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\deprecated_definitions.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\mpu_wrappers.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\task.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\list.h)(0x6A7754E2)
+I (shared_state.h)(0x6A7F44C2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\queue.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\semphr.h)(0x6A7754E2)
+F (.\uart_drain_task.h)(0x6A7F44C2)()
+F (.\oven_task.c)(0x6A7FAA51)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/maraw/OneDrive/Desktop/project/FreeRTOS_Lab1-I./RTE/RTOS-I./RTE/_Target_1-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/portable/GCC/ARM_CM4F-ID:/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/oven_task.o -MMD)
+I (oven_task.h)(0x6A7F4ED9)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\FreeRTOS.h)(0x6A7754E2)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6A7F67A7)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\projdefs.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\portable.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\deprecated_definitions.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\mpu_wrappers.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\task.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\list.h)(0x6A7754E2)
+I (init.h)(0x6A7FABD5)
+I (inc\hw_memmap.h)(0x6A777D92)
+I (driverlib\adc.h)(0x6A7DE4E7)
+I (driverlib\gpio.h)(0x6A7DE4E7)
+I (driverlib\sysctl.h)(0x6A7DE4E8)
+I (shared_state.h)(0x6A7F44C2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\queue.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\semphr.h)(0x6A7754E2)
+F (.\oven_task.h)(0x6A7F4ED9)()
+F (.\UART_task.c)(0x6A7F88BC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/maraw/OneDrive/Desktop/project/FreeRTOS_Lab1-I./RTE/RTOS-I./RTE/_Target_1-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/portable/GCC/ARM_CM4F-ID:/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/uart_task.o -MMD)
+I (init.h)(0x6A7FABD5)
+I (inc\hw_memmap.h)(0x6A777D92)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\FreeRTOS.h)(0x6A7754E2)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6A7F67A7)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\projdefs.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\portable.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\deprecated_definitions.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\mpu_wrappers.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\task.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\list.h)(0x6A7754E2)
+I (driverlib\adc.h)(0x6A7DE4E7)
+I (driverlib\gpio.h)(0x6A7DE4E7)
+I (driverlib\sysctl.h)(0x6A7DE4E8)
+I (shared_state.h)(0x6A7F44C2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\queue.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\semphr.h)(0x6A7754E2)
+I (UART.h)(0x6A7F5D49)
+I (UART_task.h)(0x6A7F5EDE)
+F (.\UART_task.h)(0x6A7F5EDE)()
+F (.\driverlib\adc.c)(0x6A7DE4E7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/maraw/OneDrive/Desktop/project/FreeRTOS_Lab1-I./RTE/RTOS-I./RTE/_Target_1-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/portable/GCC/ARM_CM4F-ID:/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/adc.o -MMD)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\inc\hw_adc.h)(0x6A777D92)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\inc\hw_ints.h)(0x6A777D92)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\inc\hw_memmap.h)(0x6A777D92)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\inc\hw_types.h)(0x6A777D92)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\inc\hw_sysctl.h)(0x6A777D92)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\driverlib\adc.h)(0x6A7DE4E7)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\driverlib\debug.h)(0x6A7DE4E7)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\driverlib\interrupt.h)(0x6A7DE4E7)
+F (.\driverlib\adc.h)(0x6A7DE4E7)()
+F (.\driverlib\cpu.c)(0x6A7F2E36)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/maraw/OneDrive/Desktop/project/FreeRTOS_Lab1-I./RTE/RTOS-I./RTE/_Target_1-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/portable/GCC/ARM_CM4F-ID:/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/cpu.o -MMD)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\driverlib\cpu.h)(0x6A7DE4E7)
+F (.\driverlib\cpu.h)(0x6A7DE4E7)()
+F (.\driverlib\gpio.c)(0x6A7DE4E7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/maraw/OneDrive/Desktop/project/FreeRTOS_Lab1-I./RTE/RTOS-I./RTE/_Target_1-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/portable/GCC/ARM_CM4F-ID:/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/gpio.o -MMD)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\inc\hw_gpio.h)(0x6A777D92)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\inc\hw_ints.h)(0x6A777D92)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\inc\hw_memmap.h)(0x6A777D92)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\inc\hw_sysctl.h)(0x6A777D92)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\inc\hw_types.h)(0x6A777D92)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\driverlib\debug.h)(0x6A7DE4E7)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\driverlib\gpio.h)(0x6A7DE4E7)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\driverlib\interrupt.h)(0x6A7DE4E7)
+F (.\driverlib\gpio.h)(0x6A7DE4E7)()
+F (.\driverlib\interrupt.c)(0x6A7DE4E7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/maraw/OneDrive/Desktop/project/FreeRTOS_Lab1-I./RTE/RTOS-I./RTE/_Target_1-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/portable/GCC/ARM_CM4F-ID:/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/interrupt.o -MMD)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\inc\hw_ints.h)(0x6A777D92)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\inc\hw_nvic.h)(0x6A777D92)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\inc\hw_types.h)(0x6A777D92)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\driverlib\cpu.h)(0x6A7DE4E7)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\driverlib\debug.h)(0x6A7DE4E7)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\driverlib\interrupt.h)(0x6A7DE4E7)
+F (.\driverlib\interrupt.h)(0x6A7DE4E7)()
+F (.\driverlib\sysctl.c)(0x6A7F2E36)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/maraw/OneDrive/Desktop/project/FreeRTOS_Lab1-I./RTE/RTOS-I./RTE/_Target_1-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/portable/GCC/ARM_CM4F-ID:/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/sysctl.o -MMD)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\inc\hw_ints.h)(0x6A777D92)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\inc\hw_nvic.h)(0x6A777D92)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\inc\hw_sysctl.h)(0x6A777D92)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\inc\hw_types.h)(0x6A777D92)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\inc\hw_flash.h)(0x6A777D92)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\driverlib\cpu.h)(0x6A7DE4E7)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\driverlib\debug.h)(0x6A7DE4E7)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\driverlib\interrupt.h)(0x6A7DE4E7)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\driverlib\sysctl.h)(0x6A7DE4E8)
+F (.\driverlib\sysctl.h)(0x6A7DE4E8)()
+F (.\driverlib\systick.c)(0x6A7DE4E8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/maraw/OneDrive/Desktop/project/FreeRTOS_Lab1-I./RTE/RTOS-I./RTE/_Target_1-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/portable/GCC/ARM_CM4F-ID:/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/systick.o -MMD)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\inc\hw_ints.h)(0x6A777D92)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\inc\hw_nvic.h)(0x6A777D92)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\inc\hw_types.h)(0x6A777D92)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\driverlib\debug.h)(0x6A7DE4E7)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\driverlib\interrupt.h)(0x6A7DE4E7)
+I (C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\driverlib\systick.h)(0x6A7DE4E8)
+F (.\driverlib\systick.h)(0x6A7DE4E8)()
+F (RTE/Device/TM4C123GH6PM/startup_TM4C123.s)(0x6A6DDF08)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/RTOS-I./RTE/_Target_1-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/portable/GCC/ARM_CM4F-ID:/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-Wa,armasm,--pd,"__UVISION_VERSION SETA 541" -Wa,armasm,--pd,"TM4C123GH6PM SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_tm4c123.o)
+F (RTE/Device/TM4C123GH6PM/system_TM4C123.c)(0x6A7F691A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/maraw/OneDrive/Desktop/project/FreeRTOS_Lab1-I./RTE/RTOS-I./RTE/_Target_1-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/portable/GCC/ARM_CM4F-ID:/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/system_tm4c123.o -MMD)
+I (D:\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x69E10AA0)
+I (D:\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x69E10AA0)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A7754B3)
+I (D:\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x69E10AA0)
+F (D:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/CMSIS/RTOS2/FreeRTOS/Source/freertos_evr.c)(0x6A7754E2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/maraw/OneDrive/Desktop/project/FreeRTOS_Lab1-I./RTE/RTOS-I./RTE/_Target_1-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/portable/GCC/ARM_CM4F-ID:/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/freertos_evr.o -MMD)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6A7F67A7)
+F (D:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/list.c)(0x6A7754E2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/maraw/OneDrive/Desktop/project/FreeRTOS_Lab1-I./RTE/RTOS-I./RTE/_Target_1-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/portable/GCC/ARM_CM4F-ID:/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/list.o -MMD)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\FreeRTOS.h)(0x6A7754E2)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6A7F67A7)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\projdefs.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\portable.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\deprecated_definitions.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\mpu_wrappers.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\list.h)(0x6A7754E2)
+F (D:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/portable/GCC/ARM_CM4F/port.c)(0x6A7754E2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/maraw/OneDrive/Desktop/project/FreeRTOS_Lab1-I./RTE/RTOS-I./RTE/_Target_1-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/portable/GCC/ARM_CM4F-ID:/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/port.o -MMD)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\FreeRTOS.h)(0x6A7754E2)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6A7F67A7)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\projdefs.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\portable.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\deprecated_definitions.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\mpu_wrappers.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\task.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\list.h)(0x6A7754E2)
+F (D:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/portable/MemMang/heap_1.c)(0x6A7754E3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/maraw/OneDrive/Desktop/project/FreeRTOS_Lab1-I./RTE/RTOS-I./RTE/_Target_1-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/portable/GCC/ARM_CM4F-ID:/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/heap_1.o -MMD)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\FreeRTOS.h)(0x6A7754E2)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6A7F67A7)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\projdefs.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\portable.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\deprecated_definitions.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\mpu_wrappers.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\task.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\list.h)(0x6A7754E2)
+F (D:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/queue.c)(0x6A7754E3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/maraw/OneDrive/Desktop/project/FreeRTOS_Lab1-I./RTE/RTOS-I./RTE/_Target_1-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/portable/GCC/ARM_CM4F-ID:/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/queue.o -MMD)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\FreeRTOS.h)(0x6A7754E2)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6A7F67A7)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\projdefs.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\portable.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\deprecated_definitions.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\mpu_wrappers.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\task.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\list.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\queue.h)(0x6A7754E2)
+F (D:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/tasks.c)(0x6A7754E3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/maraw/OneDrive/Desktop/project/FreeRTOS_Lab1-I./RTE/RTOS-I./RTE/_Target_1-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/portable/GCC/ARM_CM4F-ID:/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/tasks.o -MMD)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\FreeRTOS.h)(0x6A7754E2)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6A7F67A7)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\projdefs.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\portable.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\deprecated_definitions.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\mpu_wrappers.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\task.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\list.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\timers.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\stack_macros.h)(0x6A7754E2)
+F (D:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/timers.c)(0x6A7754E3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I C:/Users/maraw/OneDrive/Desktop/project/FreeRTOS_Lab1-I./RTE/RTOS-I./RTE/_Target_1-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/include-ID:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/portable/GCC/ARM_CM4F-ID:/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/timers.o -MMD)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\FreeRTOS.h)(0x6A7754E2)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6A7F67A7)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\projdefs.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\portable.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\deprecated_definitions.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\mpu_wrappers.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\task.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\list.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\queue.h)(0x6A7754E2)
+I (D:\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.3.0\Source\include\timers.h)(0x6A7754E2)
+F (RTE/RTOS/FreeRTOSConfig.h)(0x6A7F67A7)()

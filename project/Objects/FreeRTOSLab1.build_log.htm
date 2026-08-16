@@ -1,0 +1,130 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.41.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Marwan Elsahy, Ain Shams University, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.41.0.0
+Toolchain Path:  D:\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.22
+Assembler:       Armasm.exe V6.22
+Linker/Locator:  ArmLink.exe V6.22
+Library Manager: ArmAr.exe V6.22
+Hex Converter:   FromElf.exe V6.22
+CPU DLL:         SARMCM3.DLL V5.41.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      lmidk-agdi.dll V???
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+C:\Users\maraw\OneDrive\Desktop\project\FreeRTOS_Lab1\FreeRTOSLab1.uvprojx
+Project File Date:  08/15/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.22', folder: 'D:\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target_1'
+compiling led_builtin.c...
+compiling lighting_task.c...
+compiling shared_state.c...
+compiling main.c...
+UART.c(31): warning: unused function 'UART0_EnableInterrupt' [-Wunused-function]
+   31 | static void UART0_EnableInterrupt(void)
+      |             ^~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+compiling UART.c...
+compiling lighting_hal.c...
+compiling init.c...
+compiling uart_drain_task.c...
+compiling interrupt.c...
+compiling cpu.c...
+compiling oven_task.c...
+compiling UART_task.c...
+compiling gpio.c...
+compiling adc.c...
+compiling systick.c...
+compiling system_TM4C123.c...
+"RTE/Device/TM4C123GH6PM/startup_TM4C123.s", line 271: Warning: A1488W: PROC/FUNC at line 267 in 'RTE/Device/TM4C123GH6PM/startup_TM4C123.s' without matching ENDP/ENDFUNC
+  271 00000012 DebugMon_Handler \037                PROC
+0 Errors, 1 Warning
+assembling startup_TM4C123.s...
+compiling list.c...
+compiling sysctl.c...
+compiling port.c...
+compiling freertos_evr.c...
+compiling heap_1.c...
+compiling timers.c...
+compiling queue.c...
+compiling tasks.c...
+linking...
+Program Size: Code=19658 RO-data=1106 RW-data=4 ZI-data=10896  
+".\Objects\FreeRTOSLab1.axf" - 0 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.3.0.pack
+                ARM::CMSIS@6.3.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.2.0
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS-FreeRTOS.11.3.0.pack
+                ARM::CMSIS-FreeRTOS@11.3.0
+                Bundle of FreeRTOS for Cortex-M and Cortex-A
+   * Component: Config Variant: FreeRTOS Version: 11.3.0
+   * Component: Core Variant: Cortex-M Version: 11.3.0
+   * Component: Heap Variant: Heap_1 Version: 11.3.0
+   * Component: Timers Version: 11.3.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.TM4C_DFP.1.1.0.pack
+                Keil::TM4C_DFP@1.1.0
+                Texas Instruments Tiva C Series Device Support and Examples
+   * Component: Startup Version: 1.0.1
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/RTOS
+  ./RTE/_Target_1
+  D:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/CMSIS/RTOS2/FreeRTOS/Include
+  D:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/include
+  D:/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.3.0/Source/portable/GCC/ARM_CM4F
+  D:/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include
+  D:/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.2.0
+
+   * Component: ARM::RTOS&FreeRTOS:Config&FreeRTOS@11.3.0
+      Include file:  Source/examples/template_configuration/FreeRTOSConfig.h
+
+   * Component: ARM::RTOS&FreeRTOS:Core&Cortex-M@11.3.0
+      Include file:  Source/include/task.h
+      Source file:   Source/queue.c
+      Source file:   Source/tasks.c
+      Include file:  Source/include/FreeRTOS.h
+      Source file:   Source/list.c
+      Source file:   Source/portable/GCC/ARM_CM4F/port.c
+      Include file:  Source/include/semphr.h
+      Include file:  Source/include/queue.h
+      Source file:   CMSIS/RTOS2/FreeRTOS/Source/freertos_evr.c
+
+   * Component: ARM::RTOS&FreeRTOS:Heap&Heap_1@11.3.0
+      Source file:   Source/portable/MemMang/heap_1.c
+
+   * Component: ARM::RTOS&FreeRTOS:Timers@11.3.0
+      Include file:  Source/include/timers.h
+      Source file:   Source/timers.c
+
+   * Component: Keil::Device:Startup@1.0.1
+      Include file:  Device/Include/TM4C123/TM4C123.h
+      Source file:   Device/Source/ARM/startup_TM4C123.s
+      Source file:   Device/Source/system_TM4C123.c
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

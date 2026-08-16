@@ -1,0 +1,25 @@
+# Keil User Options & GUI settings
+*.uvoptx
+*.uvgui.*
+*.uvguix.*
+
+# Keil RTE Base Component files
+*.base@*
+
+# Keil Build Artifacts & Output Directories
+Objects/
+Listings/
+/build/
+*.o
+*.d
+*.crf
+*.axf
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.htm
+*.lnp
+*.dep
+*.bak
